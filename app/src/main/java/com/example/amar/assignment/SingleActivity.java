@@ -24,7 +24,7 @@ public class SingleActivity extends AppCompatActivity {
 
         Bundle extra=getIntent().getExtras();
         if(extra!=null) {
-            String name = extra.getString("name");
+
             String i=extra.getString("ingredient_name");
             String steps[]=i.split("\n");
             String x="";
@@ -33,9 +33,10 @@ public class SingleActivity extends AppCompatActivity {
 
             TextView textview=(TextView)findViewById(R.id.textView);
 
+
             textview.setText(x);
-            Log.d("Position",steps[0]);
-            Log.d("Single Activity:", name);
+           // Log.d("Position",steps[0]);
+
 
         }
         else

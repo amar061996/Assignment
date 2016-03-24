@@ -13,6 +13,7 @@
     tools:showIn="@layout/activity_single_contact"
     android:background="#4532c2">
 
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,4 +25,5 @@
         android:textColor="@color/white"
 
         android:textStyle="italic"/>
+
 </RelativeLayout>

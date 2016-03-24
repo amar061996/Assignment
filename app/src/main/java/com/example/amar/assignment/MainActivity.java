@@ -74,7 +74,6 @@ public class MainActivity extends ListActivity{
                 Intent in = new Intent(getApplicationContext(),
                         SingleActivity.class);
 
-                in.putExtra(TAG_NAME, name);
                in.putExtra(TAG_ING, ingredient);
 
                 startActivity(in);
